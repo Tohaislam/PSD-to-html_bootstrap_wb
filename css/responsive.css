@@ -1,0 +1,150 @@
+/* Lx Device :min-1200px */
+@media(min-width:1200px) and (max-width:1500px) {}
+
+/*LG Device :max-1199px.*/
+@media(min-width:992px) and (max-width:1199px) {
+    .main-manu ul li {
+        margin-left: 38px;
+
+    }
+
+    .features-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+
+    .slider-inner h2 {
+        font-size: 38px;
+        margin-bottom: 9px;
+    }
+
+    .slider-icon {
+        margin-top: 171px;
+    }
+
+    .slider-inner p {
+
+        margin-bottom: 22px;
+    }
+
+    .slider-inner p {
+        margin-bottom: 4px;
+    }
+
+    .blog-thumb img {
+        width: 100%;
+    }
+
+}
+
+/* MD Device : max-991px. */
+@media(min-width:768px) and (max-width:991px) {
+    .features-area {
+        margin-top: 100px;
+
+
+    }
+
+    .header-area {
+        padding: 15px 40px;
+    }
+
+    .features-area {
+        margin-top: 0;
+        padding-top: 100px;
+    }
+
+    .slider-inner h2 {
+        font-size: 49px;
+        margin-bottom: 21px;
+    }
+
+.slider-icon {
+    margin-top: 136px;
+}
+
+
+.single-features {
+   
+    border-bottom: 1px solid #dddd;
+}
+
+.theme-bg .col-lg-4:last-child .single-features{
+    border-bottom: 0px;
+}
+
+
+.about-img {
+    margin-top: 39px;
+}
+
+.single-slider {
+    background-position: center;
+    background-size: cover;
+}
+
+ .features-area {
+     margin-top: 100px;
+
+
+ }
+
+ .header-area {
+     padding: 15px 40px;
+ }
+
+ .features-area {
+     margin-top: 0;
+     padding-top: 100px;
+ }
+
+ .slider-inner h2 {
+     font-size: 49px;
+     margin-bottom: 21px;
+ }
+
+
+
+
+
+}
+
+/* Extra Small Device :max-767px. */
+@media(min-width:576px) and (max-width:767px) {
+
+.single-features {
+
+    border-bottom: 1px solid #dddd;
+}
+
+.theme-bg .col-lg-4:last-child .single-features {
+    border-bottom: 0px;
+}
+.about-img {
+    margin-top: 39px;
+}
+
+.single-slider {
+    background-position: center;
+    background-size: cover;
+}
+
+.subscribe-form input {
+    width: 100%;
+    margin-bottom: 48px;
+   
+}
+.pricing-item {
+    width: 100%;
+}
+.testimonial-area {
+    background-position: center center;
+    background-size: cover;
+}
+
+
+}
+
+
+/* SM Smail Device:max-575 */
+@media(max-width:575px) {}
